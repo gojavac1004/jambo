@@ -62,4 +62,8 @@ public class Member implements Serializable {
 			    
 		return false;		    
 	}
+			    
+	@Override
+	public int hashcode() {
+		return memberId().hashcode();
 }
