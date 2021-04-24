@@ -51,4 +51,15 @@ public class Member implements Serializable {
 		return builder.toString();
 	}
 	
+	@override
+	public boolean equals(Object obj) {
+		if (obj != null) {
+			Member dto = (Member)obj;
+			if (dto.getMemberId() != null && dto.getMemberId().equals(this.memberId) {
+				return true;
+			}
+		}
+			    
+		return false;		    
+	}
 }
