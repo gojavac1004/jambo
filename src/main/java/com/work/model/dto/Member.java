@@ -53,6 +53,7 @@ public class Member implements Serializable {
 	
 	public static void main(String[] args) {
 		Member dto = new Member();
+		Member dto2 = new Member();
 	}
 	
 }
