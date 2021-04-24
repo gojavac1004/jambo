@@ -51,4 +51,8 @@ public class Member implements Serializable {
 		return builder.toString();
 	}
 	
+	public static void main(String[] args) {
+		Member dto = new Member();
+	}
+	
 }
