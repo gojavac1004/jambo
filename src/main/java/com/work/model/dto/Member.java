@@ -39,7 +39,16 @@ public class Member implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append(memberId);
+		builder.append("\t ");
+		builder.append(memberPw);
+		builder.append("\t ");
+		builder.append(name);
+		return builder.toString();
+	}
 	
 }
